@@ -1,0 +1,15 @@
+.container>:nth-child(1){
+    background: orange;
+    width: fit-content;
+    transform: scale(5,7); /*the first value represents the width and the second the height*/
+}
+
+.container>:nth-child(2){
+    width: 300px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid black;
+}
+.myDiv{
+    transform: rotate(20deg); /*negative also are allowed*/
+}

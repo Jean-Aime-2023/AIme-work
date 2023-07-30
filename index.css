@@ -1,0 +1,37 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:wght@100;200;300&family=Lato:wght@300&family=Mulish:wght@300;400;500&family=Nunito+Sans:wght@300;400;600&family=Open+Sans:wght@300;500&family=Oswald&family=Poppins:wght@200;300;400&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container>ul li{
+    padding: 10px;    
+}
+.container ul>:nth-child(1),
+.container ul>:nth-child(2),
+.container ul>:nth-child(3){
+    display: inline;
+    padding: 10px;  
+}
+span{
+    display: block;
+    padding: 10px;
+}
+
+.container>p>span{
+    background-color: orangered;
+    width: 90px;
+    height: 80px;
+}
+.p1>span{
+    display: inline-block;
+    background-color: purple;
+}
+.p2>span{
+    display: inline;
+    background-color: red;
+}

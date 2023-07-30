@@ -1,0 +1,64 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.all{
+    position: relative;
+}
+.container{
+    height: 100px;
+    width: 400px;
+    background-color: orange;
+    color: white;
+    transition: height 2s linear 0.5s;   /* property   duration   timing-function   delay*/
+    animation-name: changecolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/* .container:hover{
+    height: 200px;
+}
+@keyframes changecolor{
+    from {background-color: orange;}
+    to {background-color: black;}
+} */
+.box{
+    position: absolute;
+    width: 150px;
+    background: purple;
+    height: 150px;
+    animation-name: movemybox;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes movemybox{
+    0% {
+        background: white;
+        left: 0;
+        top: 0;
+        border-radius: 0;
+    }
+    25% {
+        background: red;
+        left: 500px;top: 0;
+        border-radius: 50% 0 0 0;
+    }
+    50% {
+        background: purple;
+        left: 500px;
+        top: 500px;
+        border-radius: 50% 50%;
+    }
+    75% {
+        background: green;
+        left: 0;top: 500px; 
+        border-radius: 50% 0;
+    }
+    100% {background: khaki;
+        left: 0;
+        top: 0;
+        border-radius: 50% 50% 50% 0;
+    }
+}
